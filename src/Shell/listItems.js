@@ -12,9 +12,11 @@ import LayersIcon from "@material-ui/icons/Layers";
 import AssignmentIcon from "@material-ui/icons/Assignment";
 import { Link } from "react-router-dom";
 
+const noDecoration = { "text-decoration": "none", color: "inherit" };
+
 export const mainListItems = (
   <div>
-    <Link to="/dashboard">
+    <Link to="/dashboard" style={noDecoration}>
       <ListItem button>
         <ListItemIcon>
           <DashboardIcon />
@@ -22,7 +24,7 @@ export const mainListItems = (
         <ListItemText primary="Dashboard" />
       </ListItem>
     </Link>
-    <Link to="/orders">
+    <Link to="/orders" style={noDecoration}>
       <ListItem button>
         <ListItemIcon>
           <ShoppingCartIcon />
@@ -30,7 +32,7 @@ export const mainListItems = (
         <ListItemText primary="Orders" />
       </ListItem>
     </Link>
-    <Link to="/accounts">
+    <Link to="/accounts" style={noDecoration}>
       <ListItem button>
         <ListItemIcon>
           <AccountIcon />
@@ -38,7 +40,7 @@ export const mainListItems = (
         <ListItemText primary="Accounts" />
       </ListItem>
     </Link>
-    <Link to="/contacts">
+    <Link to="/contacts" style={noDecoration}>
       <ListItem button>
         <ListItemIcon>
           <PeopleIcon />
@@ -46,7 +48,7 @@ export const mainListItems = (
         <ListItemText primary="Contacts" />
       </ListItem>
     </Link>
-    <Link to="/reports">
+    <Link to="/reports" style={noDecoration}>
       <ListItem button>
         <ListItemIcon>
           <BarChartIcon />
@@ -54,7 +56,7 @@ export const mainListItems = (
         <ListItemText primary="Reports" />
       </ListItem>
     </Link>
-    <Link to="/integrations">
+    <Link to="/integrations" style={noDecoration}>
       <ListItem button>
         <ListItemIcon>
           <LayersIcon />
