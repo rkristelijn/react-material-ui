@@ -3,8 +3,8 @@ import Shell from "../../Shell/Shell";
 
 export default () => {
   return (
-    <Shell title={"Accounts View"}>
-      <div>This is the content of the accounts view</div>
+    <Shell title={"Dashboard View"}>
+      <div>This is the content of the dashboard view</div>
     </Shell>
   );
 };
