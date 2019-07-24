@@ -1,3 +1,11 @@
+// thanks to https://htmlcolorcodes.com/color-picker/
+$GREEN: #33ffce;
+$LIGHTBLUE: #33caff;
+$DARKBLUE: #3364ff;
+$PURPLE: #6833ff;
+$LILA: #ce33ff;
+$PINK: #ff33ca;
+
 .App {
   text-align: center;
 }
@@ -9,7 +17,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  // background-color: #282c34;
+  background-color: $PINK;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
