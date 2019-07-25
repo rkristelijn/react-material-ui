@@ -82,7 +82,7 @@ const rows = [
     getRandomAmount()
   ),
   createData(
-    5,
+    6,
     "15 Mar, 2019",
     "Tiesto",
     "Breda, NL",
@@ -90,7 +90,7 @@ const rows = [
     getRandomAmount()
   ),
   createData(
-    5,
+    7,
     "15 Mar, 2019",
     "Martin Garrix",
     "Amstelveen, NL",
@@ -98,7 +98,7 @@ const rows = [
     getRandomAmount()
   ),
   createData(
-    5,
+    8,
     "15 Mar, 2019",
     "Avicii",
     "Stockholm, SW",
@@ -106,7 +106,7 @@ const rows = [
     getRandomAmount()
   ),
   createData(
-    5,
+    9,
     "15 Mar, 2019",
     "La Fuente",
     "Eindhoven, NL",
@@ -114,7 +114,7 @@ const rows = [
     getRandomAmount()
   ),
   createData(
-    5,
+    10,
     "15 Mar, 2019",
     "Armin van Buuren",
     "Leiden, NL",
@@ -122,15 +122,15 @@ const rows = [
     getRandomAmount()
   ),
   createData(
-    5,
+    11,
     "15 Mar, 2019",
     "Skrillex",
     "Los Angeles, CA",
-    "VISA ⠀•••• 5919",
-    212.79
+    getCreditCardNr(),
+    getRandomAmount()
   ),
   createData(
-    5,
+    12,
     "15 Mar, 2019",
     "Hardwell",
     "Breda, NL",
@@ -138,7 +138,7 @@ const rows = [
     getRandomAmount()
   ),
   createData(
-    5,
+    13,
     "15 Mar, 2019",
     "Afrojack",
     "Spijkenisse, NL",
@@ -146,7 +146,7 @@ const rows = [
     getRandomAmount()
   ),
   createData(
-    5,
+    14,
     "15 Mar, 2019",
     "Daft Punk",
     "Parise, FR",
@@ -154,7 +154,7 @@ const rows = [
     getRandomAmount()
   ),
   createData(
-    5,
+    15,
     "15 Mar, 2019",
     "Dimitri Vegas & Like Mike",
     "Willebroek, BE",
@@ -162,7 +162,7 @@ const rows = [
     getRandomAmount()
   ),
   createData(
-    5,
+    16,
     "15 Mar, 2019",
     "Calvin Harris",
     "Dumfries, UK",
@@ -170,7 +170,7 @@ const rows = [
     getRandomAmount()
   ),
   createData(
-    5,
+    17,
     "15 Mar, 2019",
     "Swedish House mafia",
     "Stockholm, SW",
@@ -178,7 +178,7 @@ const rows = [
     getRandomAmount()
   ),
   createData(
-    5,
+    18,
     "15 Mar, 2019",
     "Camiel Daamen",
     "Groningen, NL",
@@ -186,7 +186,7 @@ const rows = [
     getRandomAmount()
   ),
   createData(
-    5,
+    19,
     "15 Mar, 2019",
     "Deadmau5",
     "Niagara Falls, CA",

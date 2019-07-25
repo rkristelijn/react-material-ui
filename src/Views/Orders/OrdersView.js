@@ -6,7 +6,7 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 
 import Shell from "../../Shell/Shell";
-import Orders from "../Dashboard/Orders";
+import Orders from "./OrdersTable";
 
 const useStyles = makeStyles(theme => ({
   content: {
@@ -32,7 +32,6 @@ export default props => {
   return (
     <Shell title={"Orders View"}>
       <main className={classes.content}>
-        <div className={classes.appBarSpacer} />
         <Container maxWidth="lg" className={classes.container}>
           <Grid container spacing={3}>
             {/* Recent Orders */}

@@ -6,9 +6,10 @@ import clsx from "clsx";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
-import Chart from "./Chart";
+import Chart from "../Reports/Chart";
 import Deposits from "./Deposits";
-import Orders from "./Orders";
+import Orders from "../Orders/OrdersTable";
+import Accounts from "../Accounts/AccountsTable";
 
 const drawerWidth = 240;
 
@@ -98,7 +99,6 @@ export default () => {
   return (
     <Shell title={"Dashboard View"}>
       <main className={classes.content}>
-        <div className={classes.appBarSpacer} />
         <Container maxWidth="lg" className={classes.container}>
           <Grid container spacing={3}>
             {/* Chart */}
@@ -117,6 +117,11 @@ export default () => {
             <Grid item xs={12}>
               <Paper className={classes.paper}>
                 <Orders amount={5} />
+              </Paper>
+            </Grid>
+            <Grid item xs={12}>
+              <Paper className={classes.paper}>
+                <Accounts amount={5} />
               </Paper>
             </Grid>
           </Grid>

@@ -1,5 +1,6 @@
 {
   "name": "react-with-backend",
+  "homepage": "http://gius.nl/material",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
