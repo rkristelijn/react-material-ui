@@ -116,7 +116,7 @@ export default () => {
             {/* Recent Orders */}
             <Grid item xs={12}>
               <Paper className={classes.paper}>
-                <Orders />
+                <Orders amount={5} />
               </Paper>
             </Grid>
           </Grid>

@@ -2,6 +2,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Goal is to create a full-stack application using a repository to customize itself.
 
+## Principles and pillars
+
+The pillars of this project are:
+
+- [create-react-app](https://facebook.github.io/create-react-app/docs/getting-started) for boilerplate and standard folder structure
+- yarn instead of npm for: ~/.yarn-cache
+- [React](https://reactjs.org/) and React DOM (using hooks only) to reduce code base
+- React router to interact with single page application
+- [Material.io](https://material-components.github.io/material-components-web-catalog/#/) for laziness to create a GUI myself and consistent look
+
 ## Todo
 
 - [ ] create 2 views and [router](https://reacttraining.com/react-router/web/example/basic)

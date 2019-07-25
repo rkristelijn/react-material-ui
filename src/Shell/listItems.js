@@ -10,9 +10,9 @@ import AccountIcon from "@material-ui/icons/Business";
 import BarChartIcon from "@material-ui/icons/BarChart";
 import LayersIcon from "@material-ui/icons/Layers";
 import LogOutIcon from "@material-ui/icons/ExitToApp";
-import { Link } from "react-router-dom";
+import Link from "../Common/Link";
 
-const noDecoration = { "text-decoration": "none", color: "inherit" };
+const noDecoration = { textDecoration: "none", color: "inherit" };
 
 export const mainListItems = (
   <div>
