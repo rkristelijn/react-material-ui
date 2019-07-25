@@ -6,22 +6,23 @@ Goal is to create a full-stack application using a repository to customize itsel
 
 The pillars of this project are:
 
-- [create-react-app](https://facebook.github.io/create-react-app/docs/getting-started) for boilerplate and standard folder structure
-- yarn instead of npm for: ~/.yarn-cache
-- [React](https://reactjs.org/) and React DOM (using hooks only) to reduce code base
-- React router to interact with single page application
-- [Material.io](https://material-components.github.io/material-components-web-catalog/#/) for laziness to create a GUI myself and consistent look
+- [x] [create-react-app](https://facebook.github.io/create-react-app/docs/getting-started) for boilerplate and standard folder structure
+- [x] yarn instead of npm for: ~/.yarn-cache
+- [x] [React](https://reactjs.org/) and React DOM (using hooks only) to reduce code base
+- [x] React router to interact with single page application
+- [x] [Material.io](https://material-components.github.io/material-components-web-catalog/#/) for laziness to create a GUI myself and consistent look
+- [x] create views and [router](https://reacttraining.com/react-router/web/example/basic)
+- [x] ability to navigate to different views
+- [x] [create-react-app](https://facebook.github.io/create-react-app/docs/getting-started)
+- [x] add [sass](https://facebook.github.io/create-react-app/docs/adding-a-sass-stylesheet)
+- [x] add [material-ui example](https://github.com/mui-org/material-ui/tree/master/docs/src/pages/getting-started/page-layout-examples/dashboard)
 
-## Todo
+## Todo (different repo)
 
-- [ ] create 2 views and [router](https://reacttraining.com/react-router/web/example/basic)
-- [ ] ability to navigate to different views
 - [ ] integrate a back-end
 - [ ] integrate proxy to allow back-end calls
 - [ ] create repo back-end using json-like db (jsend)
 
-## Done
+## Demo
 
-- [x] [create-react-app](https://facebook.github.io/create-react-app/docs/getting-started)
-- [x] add [sass](https://facebook.github.io/create-react-app/docs/adding-a-sass-stylesheet)
-- [x] add [material-ui example](https://github.com/mui-org/material-ui/tree/master/docs/src/pages/getting-started/page-layout-examples/dashboard)
+[gius.nl](http://gius.nl/material)

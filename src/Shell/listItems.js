@@ -4,6 +4,7 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListSubheader from "@material-ui/core/ListSubheader";
 import DashboardIcon from "@material-ui/icons/Dashboard";
+import CodeIcon from "@material-ui/icons/Code";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import PeopleIcon from "@material-ui/icons/People";
 import BarChartIcon from "@material-ui/icons/BarChart";
@@ -58,6 +59,17 @@ export const secondaryListItems = (
           <LogOutIcon />
         </ListItemIcon>
         <ListItemText primary="Logout" />
+      </ListItem>
+    </Link>
+    <Link
+      to="https://github.com/rkristelijn/react-material-ui"
+      style={noDecoration}
+    >
+      <ListItem button>
+        <ListItemIcon>
+          <CodeIcon />
+        </ListItemIcon>
+        <ListItemText primary="Github" />
       </ListItem>
     </Link>
   </div>
