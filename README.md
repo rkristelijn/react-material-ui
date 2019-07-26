@@ -17,7 +17,7 @@ The pillars of this project are:
 - [x] add [sass](https://facebook.github.io/create-react-app/docs/adding-a-sass-stylesheet)
 - [x] add [material-ui example](https://github.com/mui-org/material-ui/tree/master/docs/src/pages/getting-started/page-layout-examples/dashboard)
 
-## Todo (different repo)
+## Todo ([different repo](https://github.com/rkristelijn/react-ts-sass-material)
 
 - [ ] integrate a back-end
 - [ ] integrate proxy to allow back-end calls
@@ -25,4 +25,5 @@ The pillars of this project are:
 
 ## Demo
 
-[gius.nl](http://gius.nl/material)
+[gius.nl](http://gius.nl/materialv1)
+
